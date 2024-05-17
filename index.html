@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Management Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img">
+      <img src="1094980.jpg" alt="" />
+    </div>
+    <div class="container">
+      <h1>PROJECT MANAGEMENT DASHBOARD</h1>
+      <div class="form-container">
+        <h2>Create a New Project</h2>
+        <form id="project-form">
+          <label for="project-name">PROJECT NAME:</label>
+          <input type="text" id="project-name" required />
+          <label for="project-description">PROJECT DESCRIPTION:</label>
+          <textarea id="project-description" required></textarea>
+          <button type="submit">Create Project</button>
+        </form>
+      </div>
+      <div class="projects-container">
+        <h2>PROJECTS</h2>
+        <ul id="projects-list"></ul>
+      </div>
+      <div class="project-details-container">
+        <h2>DETAILS OF THE PROJECT</h2>
+        <div id="project-details"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 915px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: skyblue;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.img {
+  width: 10%;
+  height: 10vh;
+  display: flex;
+}
+.form-container {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #1e34b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: skyblue;
+}
+
+.project-item {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-item button {
+  background-color: #2d20e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.project-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
